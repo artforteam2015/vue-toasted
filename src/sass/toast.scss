@@ -122,24 +122,3 @@
     }
   }
 }
-
-@media only screen and (max-width: 600px) {
-  .toasted-container {
-    @include fit-to-screen;
-
-    &.top-center, &.bottom-center {
-      align-items: stretch !important;
-    }
-
-    &.top-right, &.top-left, &.bottom-left, &.bottom-right {
-      .toasted {
-        float: none;
-      }
-    }
-
-    .toasted {
-      border-radius: 0;
-    }
-
-  }
-}
